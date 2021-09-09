@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>haha</title>
 	<link rel="stylesheet" type="text/css" href="navbar.css">
+  <link rel="stylesheet" type="text/css" href="konten.css">
+	<title>webkita</title>
 </head>
 <body>
-	<div class="navsbar">
+<!-- 	NAVBAR -->
+  <div class="navsbar">
 		<h1 class="h1">webkita</h1>
 		<ul class="ulin">
 			<div class=" divli1">
@@ -18,42 +19,74 @@
 			<div class="divli3">
 				<li class="li3"><a href="" class="lisama">LINK</a></li>
 			</div>
-<script type="text/javascript">
-	let kotak= document.createElement("div");
-	kotak.classList.add("kotakdiv");
-	let kontener= document.querySelector("body");
-	let linkdrop= document.createElement("ul");
-	let li1= document.createElement("li");
-	let link1= document.createElement("a");
-	linkdrop.appendChild(li1);
-	li1.appendChild(link1);
-	let text1= document.createTextNode("Instagram");
-	link1.classList.add("link1");
-	link1.appendChild(text1);
-	let li2= document.createElement("li");
-	let link2= document.createElement("a");
-	linkdrop.appendChild(li2);
-	li2.appendChild(link2);
-	let text2= document.createTextNode("Facebok");
-	link2.classList.add("link2");
-	link2.appendChild(text2);
-	let li3= document.createElement("li");
-	let link3= document.createElement("a");
-	linkdrop.appendChild(li3);
-	li3.appendChild(link3);
-	let text3= document.createTextNode("Website");
-	link3.classList.add("link3");
-	link3.appendChild(text3);
-	let fungsi= function() {
-		kontener.appendChild(kotak);
-	}
-	let lilink= document.querySelector(".divli3");
-	lilink.addEventListener("mouseenter",fungsi);
-	let ilang= function() {
-		kontener.removeChild(kotak);
-	}
-	kotak.addEventListener("mouseleave",ilang);
-	kotak.appendChild(linkdrop);
+<!--  ISI KONTEN -->
+	    <section class="cf">
+      <div class="text1">
+        <h1>WebKita</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="picture">
+        <img src="ilustrasi.jpg">
+      </div>
+    </section>
+    <div class="cf">
+      <div class="img">
+        <img src="ilustrasi2.jpg">
+      </div>
+      <div class="text2">
+        <h1>APA?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <footer>
+    	<center><p>&copy;copyright 2021</p></center>
+    </footer>
+    <script type="text/javascript">
+    let kotak= document.createElement("div");
+    kotak.classList.add("kotakdiv");
+    let kontener= document.querySelector("body");
+    let linkdrop= document.createElement("ul");
+    let li1= document.createElement("li");
+    let link1= document.createElement("a");
+    linkdrop.appendChild(li1);
+    li1.appendChild(link1);
+    let text1= document.createTextNode("Instagram");
+    link1.classList.add("link1");
+    link1.appendChild(text1);
+    let li2= document.createElement("li");
+    let link2= document.createElement("a");
+    linkdrop.appendChild(li2);
+    li2.appendChild(link2);
+    let text2= document.createTextNode("Facebok");
+    link2.classList.add("link2");
+    link2.appendChild(text2);
+    let li3= document.createElement("li");
+    let link3= document.createElement("a");
+    linkdrop.appendChild(li3);
+    li3.appendChild(link3);
+    let text3= document.createTextNode("Website");
+    link3.classList.add("link3");
+    link3.appendChild(text3);
+    let fungsi= function() {
+      kontener.appendChild(kotak);
+    }
+    let lilink= document.querySelector(".divli3");
+    lilink.addEventListener("mouseenter",fungsi);
+    let ilang= function() {
+      kontener.removeChild(kotak);
+    }
+    kotak.addEventListener("mouseleave",ilang);
+    kotak.appendChild(linkdrop);
 </script>
 </body>
 </html>
