@@ -9,7 +9,7 @@
 .cf {
     *zoom: 1;
 }
-.text1 {
+.bacaan1 {
 	float: left;
 	margin-top:130px;
 	padding-left:20px;
@@ -31,7 +31,7 @@
 	width: 50%;
 	float: left;
 }
-.text2 {
+.bacaan2 {
 	margin-top:70px; 
 	float: right;
 	width: 40%;
