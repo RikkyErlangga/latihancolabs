@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+}
+.navsbar{
+	width: 100%;
+	height: 70px;
+	background-color: #76cbe3;
+	padding: 12px 0px 0px 20px;
+	box-sizing: border-box;
+	position: fixed;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+.ulin{
+	display: inline-block;
+	margin-top: -20px; 
+}
+.h1{
+	display: inline-block;
+	color: white;
+}
+.li1,.li2,.li3,.{
+	display: inline-block;
+}
+.divli1,.divli2,.divli3,.divli4{
+	display: inline-block;
+	color: white;
+	width: 80px;
+	height: 30px;
+	border: none;
+	margin-left: 10px; 
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	list-style: none;
+
+}
+.divli1{
+	padding: 7px 0px 0px 17px;
+}
+.divli2{
+	padding: 7px 0px 0px 16px;
+}
+.divli3{
+	padding: 7px 0px 0px 17px;
+}
+.lisama{
+	text-decoration: none;
+	color: white;
+}
+.kotakdiv{
+	height: 90px;
+	width: 80px;
+	padding: 9px 0px 0px 9px;
+	box-sizing: border-box;
+	position: absolute;
+	background-color: white;
+	overflow: hidden;
+	margin-left: 350px;
+	margin-top: 50px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 25%);
+}
+.link2 {
+	margin-top: 7px;
+	display: inline-block;
+}
+.link3 {
+	margin-top: 7px;
+	display: inline-block;
+}
+.link1:hover {
+	color: #c4c4c4;
+}
+.link2:hover {
+	color: #c4c4c4;
+}
+.link3:hover {
+	color: #c4c4c4;
+}
